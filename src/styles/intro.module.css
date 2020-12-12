@@ -1,0 +1,28 @@
+.intro {
+
+
+}
+.introText {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro span {
+	width: 60%;
+}
+
+.introImage {
+	width: 250px;
+	height: 250px;
+	border: 1px transparent;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.introImage img {
+	width: 250px;
+	height: auto;
+
+}

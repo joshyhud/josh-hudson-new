@@ -1,19 +1,17 @@
 import React from "react"
 import Header from "../components/header"
 import Container from "../components/container"
-import Intro from "../components/intro"
-import Footer from "../components/footer"
 import WorkContent from "../components/workcontent"
+import Footer from "../components/footer"
 
-export default function Home() {
+export default function work() {
   return ( 
-  <Container>
-	  <Header />
-	 	<Intro /> 
+	  <Container>
+		  <Header />
 
-	  <Footer />
-  </Container>
+		  <WorkContent />
 
-
+		  <Footer />
+	  </Container>
   )
 }

@@ -1,0 +1,18 @@
+.work {
+
+}
+
+.workgrid {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.workitem {
+    width: 44%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}

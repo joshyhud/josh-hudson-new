@@ -1,15 +1,15 @@
 import React from "react"
 import Header from "../components/header"
 import Container from "../components/container"
-import Intro from "../components/intro"
+import ContactContent from "../components/contactcontent"
 import Footer from "../components/footer"
-import WorkContent from "../components/workcontent"
 
-export default function Home() {
+export default function contact() {
   return ( 
   <Container>
 	  <Header />
-	 	<Intro /> 
+
+	  <ContactContent />
 
 	  <Footer />
   </Container>
