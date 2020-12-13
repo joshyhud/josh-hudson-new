@@ -6,5 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    siteTitle: `Josh Hudson Dev`,
+  },
+
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ],
 }
