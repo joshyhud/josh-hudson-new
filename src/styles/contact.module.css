@@ -27,6 +27,7 @@
 }
 
 .contact form button {
+	background: rgb(191, 191, 230, 0.3);
     width: 250px;
     height: 45px;
     text-align: center;

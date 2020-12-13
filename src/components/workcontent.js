@@ -12,40 +12,40 @@ export default function WorkContent(){
 		<p> Here are some exmaples of projects that I have worked on:</p>
 
 			<div ClassName={workStyles.workgrid}>
-
+{/*
 				<WorkItem> 
 					<h2>Sea on Glass</h2>
 					<p>A freelance wordpress store front project for an artist duo in north Devon</p>
 					<Link to="https://sea-on-glass.co.uk">See work</Link>
 				</WorkItem>
-
+*/}
 				<WorkItem> 
 					<h2>Frontline Aids</h2>
-					<p>Wordpress build project for Frontline Aids Charity</p>
+					<p>Wordpress build project for Frontline Aids Charity utilising ACF's and customer functions to display multiple content types and resurces with We Are Tilt.</p>
 					<Link to="https://frontlineaids.org">See work</Link>
 				</WorkItem>
 
 				<WorkItem> 
-					<h2>wearetilt.com</h2>
-					<p>Wordpress Build and maintenance project</p>
+					<h2>We Are Tilt Wesbite</h2>
+					<p>Wordpress Build and maintenance project utilising ACF's for custom post and function builds for content population and CSS animations and styling for interactive visuals.</p>
 					<Link to="https://wearetilt.com">See Work</Link>
 				</WorkItem>
 
 				<WorkItem> 
 					<h2>Roffey Park Institute</h2>
-					<p>A wordpress build and maintenance project for Roffey Park institute in Horsham</p>
+					<p>A Wordpress Woocommerce build project for Roffey Park Institute based in Horsham, with a global reach for business courses with We Are Tilt. </p>
 					<Link to="https://roffeypark.ac.uk">See work</Link>
 				</WorkItem>
 
 				<WorkItem> 
 					<h2>BA i360</h2>
-					<p>A wordpress build and maintenance project for Roffey Park institute in Horsham</p>
+					<p>A wordpress build for the BA i360 in Brighton. Creating custom theme template parts, functions with ACF's for events, ticketing and posts/marketing campaigns with We Are Tilt.</p>
 					<Link to="https://britishairwaysi360.com/">See work</Link>
 				</WorkItem>
 
 				<WorkItem> 
 					<h2>Travelbound</h2>
-					<p>A wordpress build and maintenance project for Roffey Park institute in Horsham</p>
+					<p>A wordpress build With We Are Tilt for Experience Education brand. creating a fully CMSable site for the client to use with new Gutenberg blocks and utilising custom functions to display trips and post information.</p>
 					<Link to="https://travelbound.co.uk/">See work</Link>
 				</WorkItem>
 

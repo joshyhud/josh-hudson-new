@@ -1,6 +1,7 @@
 html {
 /*  background-color: lavenderblush;*/
   font-family: 'Nunito', sans-serif;
+  color: #484747;
 }
 
 p {
@@ -8,7 +9,16 @@ p {
 }
 
 a {
-	color: black;
+	color: #484747;
     text-decoration: none;
     font-weight: bold;
+}
+
+
+a .more{
+	text-transform: uppercase;
+}
+
+a:hover {
+	opacity: 0.75;
 }

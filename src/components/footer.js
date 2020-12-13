@@ -9,6 +9,7 @@ export default function Footer(){
 		<div className={footerStyles.footer}>
 
 		<div className={footerStyles.social}>
+			<Link to="/contact">Email</Link>
 			<Link to="https://twitter.com/joshyhud">Twitter</Link>
 			<Link to="https://www.buymeacoffee.com/joshyhud">Buy me a Coffee</Link>
 		</div>

@@ -1,17 +1,23 @@
 .posts, .work {
-	margin: 0 0 100px 0;
+	margin: 60px 0 0 0;
 }
 
 
 
 .post {
-	background: #bfbfe6;
+	background: rgb(191, 191, 230, 0.2);
 	width: 100%;
-	padding: 10px 0 10px 40px;
+	padding: 10px 20px 10px 20px;
 	margin-bottom: 20px;
 	border-radius: 5px;
 	border: none;
+	box-shadow: none;
+	transition: box-shadow 0.5s ease;
+}
 
+.post:hover {
+    box-shadow: 5px 5px 10px 0px rgba(0,0 ,0 , 0.05);
+    transition: all 0.5s ease;
 }
 
 .more{
