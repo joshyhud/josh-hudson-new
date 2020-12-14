@@ -1,24 +1,31 @@
 .work {
-
+    padding: 0 20px;
 }
 
-.workgrid {
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    .workitem {
+        background: rgb(191, 191, 230, 0.2);
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+        transition: all 0.5s ease;
+    }
+
+@media only screen and (min-width: 768px) {
+    .work {
+    padding: 0 ;
 }
 
-.workitem {
-    width: 100%;
-	background: rgb(191, 191, 230, 0.2);
-    padding: 15px;
-    border-radius: 5px;
-    margin: 10px 0;
-    transition: all 0.5s ease;
-}
+    .workitem {
+        width: 100%;
+    	background: rgb(191, 191, 230, 0.2);
+        padding: 15px;
+        border-radius: 5px;
+        margin: 10px 0;
+        transition: all 0.5s ease;
+    }
 
-.workitem:hover {
-	    box-shadow: 5px 5px 10px 0px rgba(0,0 ,0 , 0.05);
-    transition: all 0.5s ease;
+    .workitem:hover {
+    	    box-shadow: 5px 5px 10px 0px rgba(0,0 ,0 , 0.05);
+        transition: all 0.5s ease;
+    }
 }

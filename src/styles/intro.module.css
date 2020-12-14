@@ -2,15 +2,17 @@
 
 
 }
+
 .introText {
 	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+	flex-direction: column;
+	padding: 0 20px;
 }
 
+
 .intro span {
-	width: 60%;
+	width: 100%;
+	order: 1;
 }
 
 .intro a {
@@ -18,6 +20,42 @@
 }
 
 .introImage {
+	order: 0;
+	width: 150px;
+	height: 150px;
+	border: 1px transparent;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.introImage img {
+	width: 150px;
+	height: auto;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.introText {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.intro span {
+	width: 60%;
+	order: 0;
+}
+
+.intro a {
+	margin: 0 10px 0 0;
+}
+
+.introImage {
+	order: 1;
 	width: 250px;
 	height: 250px;
 	border: 1px transparent;
@@ -28,5 +66,7 @@
 .introImage img {
 	width: 250px;
 	height: auto;
+
+}
 
 }
