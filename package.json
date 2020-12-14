@@ -17,6 +17,7 @@
     "@emotion/react": "^11.1.2",
     "gatsby": "^2.26.1",
     "gatsby-plugin-emotion": "^5.0.0",
+    "gatsby-plugin-google-gtag": "^2.4.0",
     "gatsby-plugin-typography": "^2.8.0",
     "gatsby-source-filesystem": "^2.7.0",
     "gatsby-transformer-remark": "^2.12.0",

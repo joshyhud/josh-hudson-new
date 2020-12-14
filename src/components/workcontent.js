@@ -11,24 +11,24 @@ export default function WorkContent(){
 
 		<div className={workStyles.work}>
 
-		<p>Here are some exmaples of projects that I have worked on. Click on See work to go to the sites and if you have any questions please feel free to contact me.</p>
+		<p>Here are some examples of projects that I have worked on. Click on See work to go to the sites and if you have any questions please feel free to contact me.</p>
 
 			<div ClassName={workStyles.workgrid}>
 {/*
 				<WorkItem> 
 					<h2>Sea on Glass</h2>
-					<p>A freelance wordpress store front project for an artist duo in north Devon</p>
+					<p>A freelance Wordpress storefront project for an artist duo in north Devon</p>
 					<Link to="https://sea-on-glass.co.uk">See work</Link>
 				</WorkItem>
 */}
 				<WorkItem> 
 					<h2>Frontline Aids</h2>
-					<p>Wordpress build project for Frontline Aids Charity utilising ACF's and customer functions to display multiple content types and resurces with We Are Tilt.</p>
+					<p>Wordpress build project for Frontline Aids Charity utilising ACF's and customer functions to display multiple content types and resources with We Are Tilt.</p>
 					<Link className={frontpageStyles.more} to="https://frontlineaids.org">See work</Link>
 				</WorkItem>
 
 				<WorkItem> 
-					<h2>We Are Tilt Wesbite</h2>
+					<h2>We Are Tilt Website</h2>
 					<p>Wordpress Build and maintenance project utilising ACF's for custom post and function builds for content population and CSS animations and styling for interactive visuals.</p>
 					<Link className={frontpageStyles.more} to="https://wearetilt.com">See Work</Link>
 				</WorkItem>
