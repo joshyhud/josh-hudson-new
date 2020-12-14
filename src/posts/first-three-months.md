@@ -17,11 +17,9 @@ As i was using mysql quite a bit i logged into codewars and practised mysql stat
 ![alt text](../images/level-up.jpeg "Level up")
 
 We are always learning and take the downtime between projects to learn as much as possible as when in projects time is precious.
-Apart from styling amendments i worked with mysql databases and managing these. MySQL and MsSQL is definitely worth looking in to as these skills are invaluable for a developer. The language is oretty straight forward for simple statements.
+Apart from styling amendments i worked with mysql databases and managing these. MySQL and MsSQL is definitely worth looking in to as these skills are invaluable for a developer. The language is pretty straight forward for simple statements.
 
-'''
 SELECT * FROM database
-'''
 
 This will get all table contents from a certain named database. There are a few symbols to use but i treat MySQL as talking to someone real as you ask it something in nearly plain english and it will respond.
 

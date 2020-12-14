@@ -14,6 +14,14 @@ export default function Home({data}) {
     <Header />
     <Intro /> 
 
+    <div className={frontpageStyles.work}>
+      <h1>About me</h1>
+      <p> I am a Web Developer, working for digital agency <Link to="https://wearetilt.com">We are Tilt</Link> in Brghton. I work with a range of different languages and platforms for example HTML, CSS/SCSS, Javascript/JQuery, PHP, MySQL, Laravel, Wordpress and some React and Gatsby. For instance this site is built using Gatsby, which has been great fun working on and learning. I also have a good knowledge of HTTPS server setup and managing domains and sites.</p>
+      <p> I became my development junior back in 2017 with short night classes and joined up with codebar to learn my new skills, I then landed my first development job in 2018 and have been coding and learning ever since. The brighton dev community and in thw twitterverse is amazing and so helpful and supportful. I have spoken about my journey on podcasts and web interviews and happy to blog when i can about what I find interesting</p>
+      <p>If you would like to get in contact please reach out on twitter or use my contact form to drop me an email.</p>
+      <Link className={frontpageStyles.more} to="/work">View my Work</Link>
+    </div>
+
     <div className={frontpageStyles.posts}>
       <h1>Latest Posts </h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -27,13 +35,6 @@ export default function Home({data}) {
           </div>
         ))} 
           <Link className={frontpageStyles.more} to="/blog">View more posts</Link>
-    </div>
-
-    <div className={frontpageStyles.work}>
-      <h1>About me</h1>
-      <p> I work with a range of different languages and platforms for example HTML, CSS/SCSS, Javascript/JQuery, PHP, MySQL, Laravel, Wordpress and some React and Gatsby.</p>
-      <p>For instance this site is built using Gatsby, which has been great fun working on and learning. I Also have a good knowledge of HTTPS server setup and managing domains and sites.</p>
-      <Link className={frontpageStyles.more} to="/work">View my Work</Link>
     </div>
 
     <Footer />

@@ -12,13 +12,12 @@ a {
 	color: #484747;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.5s ease-out;
 }
 
-
-a .more{
-	text-transform: uppercase;
-}
 
 a:hover {
 	opacity: 0.75;
+	color: #678fdd;
+	transition: all 0.5s ease-in;
 }

@@ -2,6 +2,8 @@ import React from "react"
 import {Link} from "gatsby"
 import WorkItem from "../components/workitem"
 import workStyles from "../styles/work.module.css"
+import frontpageStyles from "../styles/frontpage.module.css" 
+
 
 export default function WorkContent(){
 
@@ -9,7 +11,7 @@ export default function WorkContent(){
 
 		<div className={workStyles.work}>
 
-		<p> Here are some exmaples of projects that I have worked on:</p>
+		<p>Here are some exmaples of projects that I have worked on. Click on See work to go to the sites and if you have any questions please feel free to contact me.</p>
 
 			<div ClassName={workStyles.workgrid}>
 {/*
@@ -22,31 +24,31 @@ export default function WorkContent(){
 				<WorkItem> 
 					<h2>Frontline Aids</h2>
 					<p>Wordpress build project for Frontline Aids Charity utilising ACF's and customer functions to display multiple content types and resurces with We Are Tilt.</p>
-					<Link to="https://frontlineaids.org">See work</Link>
+					<Link className={frontpageStyles.more} to="https://frontlineaids.org">See work</Link>
 				</WorkItem>
 
 				<WorkItem> 
 					<h2>We Are Tilt Wesbite</h2>
 					<p>Wordpress Build and maintenance project utilising ACF's for custom post and function builds for content population and CSS animations and styling for interactive visuals.</p>
-					<Link to="https://wearetilt.com">See Work</Link>
+					<Link className={frontpageStyles.more} to="https://wearetilt.com">See Work</Link>
 				</WorkItem>
 
 				<WorkItem> 
 					<h2>Roffey Park Institute</h2>
 					<p>A Wordpress Woocommerce build project for Roffey Park Institute based in Horsham, with a global reach for business courses with We Are Tilt. </p>
-					<Link to="https://roffeypark.ac.uk">See work</Link>
+					<Link className={frontpageStyles.more} to="https://roffeypark.ac.uk">See work</Link>
 				</WorkItem>
 
 				<WorkItem> 
 					<h2>BA i360</h2>
 					<p>A wordpress build for the BA i360 in Brighton. Creating custom theme template parts, functions with ACF's for events, ticketing and posts/marketing campaigns with We Are Tilt.</p>
-					<Link to="https://britishairwaysi360.com/">See work</Link>
+					<Link className={frontpageStyles.more} to="https://britishairwaysi360.com/">See work</Link>
 				</WorkItem>
 
 				<WorkItem> 
 					<h2>Travelbound</h2>
 					<p>A wordpress build With We Are Tilt for Experience Education brand. creating a fully CMSable site for the client to use with new Gutenberg blocks and utilising custom functions to display trips and post information.</p>
-					<Link to="https://travelbound.co.uk/">See work</Link>
+					<Link className={frontpageStyles.more} to="https://travelbound.co.uk/">See work</Link>
 				</WorkItem>
 
 			</div>

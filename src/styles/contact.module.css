@@ -33,6 +33,10 @@
     text-align: center;
     border-radius: 5px;
     border: 1px transparent;
-    box-shadow: 5px 5px 10px 0px rgba(0,0 ,0 , 0.05);
+    transition: all 0.5s ease;
+}
 
+.contact form button:hover {
+	box-shadow: 5px 5px 10px 0px rgba(0,0 ,0 , 0.05);
+	transition: all 0.5s ease;
 }
