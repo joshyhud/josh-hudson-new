@@ -23,7 +23,7 @@ export default function WorkContent(){
 */}
 				<WorkItem> 
 					<h2>Frontline Aids</h2>
-					<p>Wordpress build project for Frontline Aids Charity utilising ACF's and customer functions to display multiple content types and resources with We Are Tilt.</p>
+					<p>Wordpress build project for Frontline Aids Charity utilising ACF's and custom functions to display multiple content types and resources with We Are Tilt.</p>
 					<Link className={frontpageStyles.more} to="https://frontlineaids.org">See work</Link>
 				</WorkItem>
 

@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     siteTitle: `Josh Hudson Dev`,
+    siteURL: `https://josh-hudson.co.uk`,
   },
 
   plugins: [
@@ -30,5 +31,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    'gatsby-plugin-next-seo',
+
   ],
 }
