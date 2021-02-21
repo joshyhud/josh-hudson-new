@@ -9,19 +9,13 @@ export default function ContactContent(){
 
 			<p>If you would like to get in touch to discuss a potential project or just for a chat, reach out on the form below or contact me on social.</p>
 
-			<form name="contact" method="POST" data-netlify="true">
-			  <p>
-			    <label>Name: <input type="text" name="name" /></label>   
-			  </p>
-			  <p>
-			    <label>Email: <input type="email" name="email" /></label>
-			  </p>
-			  <p>
-			    <label>Message: <textarea name="message"></textarea></label>
-			  </p>
-			  <p>
-			    <button type="submit">Send</button>
-			  </p>
+			<form action="https://getform.io/f/6e8428d4-bb9c-4066-ab2e-b2dd212930fa" method="POST">
+
+			  <input type="text" name="name">
+			  <input type="email" name="email">
+			  <input type="text" name="message">
+			  <button type="submit">Send</button>
+
 			</form>
 
 		</div>
