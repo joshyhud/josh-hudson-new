@@ -9,7 +9,7 @@ export default function ContactContent(){
 
 			<p>If you would like to get in touch to discuss a potential project or just for a chat, reach out on the form below or contact me on social.</p>
 
-			<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+			<form name="contact" method="POST" data-netlify="true">
 			  <p>
 			    <label>Name: <input type="text" name="name" /></label>   
 			  </p>
@@ -19,7 +19,6 @@ export default function ContactContent(){
 			  <p>
 			    <label>Message: <textarea name="message"></textarea></label>
 			  </p>
-			    <div data-netlify-recaptcha="true"></div>
 			  <p>
 			    <button type="submit">Send</button>
 			  </p>
