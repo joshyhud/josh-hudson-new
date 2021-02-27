@@ -8,6 +8,10 @@ import SEO from "../components/seo"
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
+  const image = post.frontmatter.image
+      ? post.frontmatter.image.childImageSharp.resize
+      : null
+      
   return (
     <Container>
     	  <Header />
