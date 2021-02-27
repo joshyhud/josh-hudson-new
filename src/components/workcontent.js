@@ -14,13 +14,13 @@ export default function WorkContent(){
 		<p>Here are some examples of projects that I have worked on. Click on See work to go to the sites and if you have any questions please feel free to contact me.</p>
 
 			<div ClassName={workStyles.workgrid}>
-{/*
+
 				<WorkItem> 
 					<h2>Sea on Glass</h2>
 					<p>A freelance Wordpress storefront project for an artist duo in north Devon</p>
 					<Link to="https://sea-on-glass.co.uk">See work</Link>
 				</WorkItem>
-*/}
+
 				<WorkItem> 
 					<h2>Frontline Aids</h2>
 					<p>Wordpress build project for Frontline Aids Charity utilising ACF's and custom functions to display multiple content types and resources with We Are Tilt.</p>
