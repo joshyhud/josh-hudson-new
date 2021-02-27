@@ -5,12 +5,14 @@ import Intro from "../components/intro"
 import Footer from "../components/footer"
 import {Link, graphql } from "gatsby"
 import frontpageStyles from "../styles/frontpage.module.css" 
+import SEO from "../components/seo"
 
 export default function Home({data}) {
   console.log(data)
   return ( 
     <Container>
     <Header />
+    <SEO title="Josh Hudson Dev" />
     <Intro /> 
 
     <div className={frontpageStyles.work}>
