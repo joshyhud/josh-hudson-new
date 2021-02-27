@@ -11,7 +11,7 @@ export default function BlogPost({ data }) {
   const image = post.frontmatter.image
       ? post.frontmatter.image.childImageSharp.resize
       : null
-      
+
   return (
     <Container>
     	  <Header />
@@ -38,15 +38,7 @@ export const query = graphql`
         title
         date(formatString: "DD MMMM, YYYY")
         description
-          image: featured {
-            childImageSharp {
-              resize(width: 1200) {
-                src
-                height
-                width
-              }
-            }
-          }
+        image: featured
       }
     }
   }
