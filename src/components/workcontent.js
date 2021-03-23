@@ -17,7 +17,7 @@ export default function WorkContent(){
 
 				<WorkItem> 
 					<h2>Design is the Difference - Vodafone</h2>
-					<p>Winner of Digital Impact Award 2021 online learning video piece made for Vodafone. Static site generation with rich media and content created with We Are Tilt</p>
+					<p>Winner of Digital Impact Award 2021, an online learning video piece made for Vodafone. Static site generation with rich media and content created with We Are Tilt</p>
 					<Link className={frontpageStyles.more} to="https://wearetilt.com/design-is-the-difference/">See case study</Link>
 				</WorkItem>
 
