@@ -16,6 +16,12 @@ export default function WorkContent(){
 			<div ClassName={workStyles.workgrid}>
 
 				<WorkItem> 
+					<h2>Design is the Difference - Vodafone</h2>
+					<p>Winner of Digital Impact Award 2021 online learning video piece made for Vodafone. Static site generation with rich media and content created with We Are Tilt</p>
+					<Link to="https://wearetilt.com/design-is-the-difference/">See case study</Link>
+				</WorkItem>
+
+				<WorkItem> 
 					<h2>Sea on Glass</h2>
 					<p>A freelance Wordpress storefront project for an artist duo in north Devon</p>
 					<Link to="https://sea-on-glass.co.uk">See work</Link>
