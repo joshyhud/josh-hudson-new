@@ -7,8 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteTitle: `Josh Hudson Dev`,
-    siteURL: `https://josh-hudson.co.uk`,
+    title: "Josh Hudson Dev",
+    titleTemplate: "-",
+    description:
+      "Web Developer",
+    url: "https://josh-hudson.co.uk", // No trailing slash allowed!
+    image: "/images/head.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@joshyhud",
   },
 
   plugins: [
@@ -30,8 +35,9 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`,
+    'gatsby-transformer-remark',
     'gatsby-plugin-next-seo',
+    'gatsby-plugin-react-helmet',
 
   ],
 }
