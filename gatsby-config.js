@@ -11,7 +11,7 @@ module.exports = {
     titleTemplate: "-",
     description:
       "Web Developer",
-    url: "https://josh-hudson.co.uk", // No trailing slash allowed!
+    siteUrl: "https://josh-hudson.co.uk", // No trailing slash allowed!
     image: "/images/head.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@joshyhud",
   },
