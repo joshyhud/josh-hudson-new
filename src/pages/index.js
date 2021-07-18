@@ -3,11 +3,12 @@ import Header from "../components/header"
 import Container from "../components/container"
 import Intro from "../components/intro"
 import Footer from "../components/footer"
+import SEO from "../components/seo"
 import {Link, graphql } from "gatsby"
 import frontpageStyles from "../styles/frontpage.module.css" 
 
+
 export default function Home({data}) {
-  console.log(data)
   return ( 
     <Container>
     <Header />
