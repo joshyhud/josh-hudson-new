@@ -10,7 +10,7 @@ import frontpageStyles from "../styles/frontpage.module.css"
 
 <Helmet>
 <html lang="en" />
-<title>{site.siteMetadata.title}</title>
+<title>{siteMetadata.title}</title>
 <meta name="google-site-verification" content="CkY0IkzUxJ8i2PO0N1r0szIbkUprs15fGa4RTZt--rs"/>
 </Helmet>
 
