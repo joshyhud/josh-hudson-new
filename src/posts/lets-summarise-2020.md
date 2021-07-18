@@ -1,6 +1,7 @@
 ---
 title: "Lets Summarise 2020!"
 date: "2021-01-09"
+featured: images/social-card.png
 ---
 
 So 2020 happened and we made it out the other side to 2021. Adapting to a new way of working has been a challenge for all of us but we have done it. I started the year as normal with commutes to work, working in an office and seeing my colleagues everyday which seems so alien now. In March things started to get a little peaky looking for everyone so our company took the decision to start working from home early a week or two before the first major lockdown.

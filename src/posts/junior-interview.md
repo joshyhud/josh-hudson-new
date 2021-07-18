@@ -1,6 +1,7 @@
 ---
 title: "Junior Web Dev Interview"
 date: "2017-12-12"
+featured: images/social-card.png
 ---
 
 So I recently had an interview for a junior web developer role and was expecting the worst. I was expecting loads of technical questions and having to white board processes etc. And basically was bricking it before and little bit during the interview. Now this will not always be the case with all interviews, but here is my experience.

@@ -1,6 +1,7 @@
 ---
 title: "New Website"
 date: "2020-12-13"
+featured: images/social-card.png
 ---
 
 So after many months of contemplating....no procrastinating I have managed to build my new website. I hope you like the new look and feel as I have used a brand new platform and language that I've been learning over the last few weeks. Gatsby!!

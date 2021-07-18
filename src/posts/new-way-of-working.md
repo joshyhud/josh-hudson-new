@@ -1,6 +1,7 @@
 ---
 title: "New ways of working"
 date: "2021-07-18"
+featured: images/social-card.png
 ---
 
 The world of work at the moment is a strange place and I think that I have adapted to working from home and got my home office setup pretty much how I like it. Wall bracket screen, Little desk inside a spare room cupboard, little usb desk fan as its really hot right now. My office is my little tardis away from home, but we have started to ease the lock down now and I have actually ventured out of my tardis and back to the office.

@@ -1,6 +1,7 @@
 ---
 title: "The first three months"
 date: "2018-03-21"
+featured: images/social-card.png
 ---
 
 So it's been now a full three months of being a web developer and I'm absolutely loving it. Such a massive career change for me and I haven't regretted it. I’ve gone from a lowly customer service agent “hello how can i help today?” to “I can build this and style it for you”.

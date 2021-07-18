@@ -1,6 +1,7 @@
 ---
 title: "Adventures in Coding"
 date: "2017-12-07"
+featured: images/social-card.png
 ---
 
 I have been coding now for just under a year and it's been amazingly crazy and has actually changed my life for the better. I have read a lot of articles on medium and the internet about how you can learn to code in a few months and land a dream job etc etc and blah blah blah, but it's all true. The last ten months to be precise prove that this is true and I thought I'd share my story.
