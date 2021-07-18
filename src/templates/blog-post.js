@@ -39,7 +39,9 @@ export const query = graphql`
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
       html
+      excerpt(pruneLength: 160)
       frontmatter {
         title
         description
