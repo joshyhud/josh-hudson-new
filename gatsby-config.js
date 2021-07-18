@@ -36,7 +36,6 @@ module.exports = {
       },
     },
     'gatsby-transformer-remark',
-    'gatsby-plugin-next-seo',
     'gatsby-plugin-react-helmet',
 
   ],
