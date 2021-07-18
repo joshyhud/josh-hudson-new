@@ -42,7 +42,7 @@ export const query = graphql`
       html
       frontmatter {
         title
-        descriptionfetured.
+        description
         date(formatString: "DD MMMM, YYYY")
         image: featured {
           childImageSharp {
