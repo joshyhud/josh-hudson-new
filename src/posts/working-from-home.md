@@ -1,7 +1,7 @@
 ---
 title: "Working from home"
 date: "2021-02-27"
-featured: images/featured.jpg
+image: images/featured.jpg
 ---
 
 Since March 2020 I have been working from home due to the pandemic, which has been a change in mindset for me. I have never worked from home before in my life, I have always been in an office or work environment and this has been a big change. I was initially filled with dread and worry that I couldn't perform my job being away from my colleagues, but it was something that had to be done for the greater good of everyone. 
