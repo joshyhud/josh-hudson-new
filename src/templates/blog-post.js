@@ -35,7 +35,6 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -44,7 +43,6 @@ export const query = graphql`
       excerpt(pruneLength: 160)
       frontmatter {
         title
-        description
         date(formatString: "DD MMMM, YYYY")
         image: featured {
           childImageSharp {
