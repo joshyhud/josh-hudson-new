@@ -8,14 +8,15 @@ import { Helmet } from "react-helmet"
 import {Link, graphql } from "gatsby"
 import frontpageStyles from "../styles/frontpage.module.css" 
 
-<Helmet>
-<html lang="en" />
-<meta name="google-site-verification" content="CkY0IkzUxJ8i2PO0N1r0szIbkUprs15fGa4RTZt--rs"/>
-</Helmet>
 
 export default function Home({data}) {
   return ( 
     <Container>
+    <Helmet>
+      <html lang="en" />
+      <title>{site.siteMetadata.title}</title>
+      <meta name="google-site-verification" content="CkY0IkzUxJ8i2PO0N1r0szIbkUprs15fGa4RTZt--rs"/>
+    </Helmet>
     <Header />
     <Intro /> 
     <div className={frontpageStyles.work}>
