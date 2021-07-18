@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/header"
 import Container from "../components/container"
 import Footer from "../components/footer"
+import SEO from "../components/seo"
 import { Link, graphql } from "gatsby"
 import frontpageStyles from "../styles/frontpage.module.css" 
 
