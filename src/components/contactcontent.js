@@ -20,7 +20,7 @@ export default function ContactContent(){
 			  </label>
 			  <label>
 			    Message
-			    <textarea name="message" id="message" rows="5" />
+			    <input type="text" name="message" id="message" rows="5" />
 			  </label>
 			  <button type="submit">Send</button>
 			</form>
