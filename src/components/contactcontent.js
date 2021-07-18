@@ -9,7 +9,7 @@ export default function ContactContent(){
 
 			<p>If you would like to get in touch to discuss a potential project or just for a chat, reach out on the form below or contact me on social.</p>
 
-			<form method="POST" data-netlify="true">
+			<form name="Contacts" method="POST" data-netlify="true">
 			  <label>
 			    Name
 			    <input type="text" name="name" id="name" />
