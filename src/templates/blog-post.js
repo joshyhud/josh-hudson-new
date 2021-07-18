@@ -18,7 +18,6 @@ export default function BlogPost({ data }) {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
           image={image}
-          pathname={this.props.location.pathname}
         />
       <Header />
       <div>
