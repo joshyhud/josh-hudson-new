@@ -35,6 +35,13 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "abc123",
+        dataset: "blog",
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-image`,
